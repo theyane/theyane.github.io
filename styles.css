@@ -1,0 +1,62 @@
+/* 
+gunmetal        - #19323c (background)
+sizzling red    - #f2545b (headers)
+amaranth purple - #a93f55 (text)
+mint cream      - #f3f7f0 (white)
+rose taupe      - #8c5e58 (accent)
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&display=swap');
+
+body {
+    background-color: #19323C;
+    font-family: 'Roboto Mono', monospace;
+}
+h1 {
+    color:#f2545b;
+    line-height: 34px;
+    height: 1.5ch;
+}
+t {
+    color:#a93f55;
+}
+hr {
+    width:75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #8c5e58;
+    border-color: #8c5e58;
+    border-top:none;
+    height:0.2ch;
+    
+}
+button {
+    background-color: #f2545b; /* Green */
+    border: none;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0s;
+    cursor: pointer;
+    color: #f3f7f0; 
+    border: 2px solid #f3f7f0;
+    align-content: center;
+    margin: auto;
+    margin-left:1ch;
+    margin-right:1ch;
+    font-family: 'Roboto Mono', monospace;
+}
+button:hover {
+    background-color: #f3f7f0;
+    color: #f2545b;
+}
+.buttons {
+    align-self: center;
+    text-align: center;
+}
+.main {
+    width:50%;
+    margin:auto;
+}
